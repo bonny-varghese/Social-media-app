@@ -1,0 +1,54 @@
+
+.login__content{
+    display: flex;
+    background-color: white;
+}
+.login__left{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    justify-content: space-around;
+    width: 50vw;
+    height: 90vh;
+}
+
+.login__left > img{
+    width: 100%;
+  height: auto;
+  margin-bottom: auto  ;
+ 
+    
+}
+.login__leftText{
+    font-family: 'BioRhyme', serif;
+    font-weight: 700;
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    padding : 8px 16px;
+    border-radius: 4px;
+    font-size: 20px; 
+    
+}
+
+.login__right{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    justify-content: space-around;
+    width: 50vw;
+    height: 90vh; 
+}
+
+.login__rightText{
+    font-family: 'BioRhyme', serif;
+    font-weight: 700;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 4px;
+    text-align: center;
+    padding : 8px 16px;
+    border-radius: 4px;
+    font-size: 20px; 
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.createPost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px; 
+    
+}
+.createPost__loggedIn{
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 4px;
+    padding: 12px 16px;
+    -moz-box-shadow: 0 5px 5px 	#A9A9A9;
+    -webkit-box-shadow: 0 5px 5px 	#A9A9A9;
+    box-shadow: 0px 0px 10px 	#000;
+} 
+
+.createPost__uploadImage{
+    display: flex;
+    justify-content: space-between;
+}
+.createPost__uploadImage > input{
+    display: none;
+}
+
+.createPost__uploadBtn{
+    border: none;
+    background-color: white;
+    outline-width: 0;
+    cursor: pointer;
+}
+
+.createPost__textArea{
+    border: none;
+    width: 100%;
+    outline-width: 0;
+    font-size: 14px;
+    margin-top: 16px !important;
+    resize: none;
+}
+
+#image__preview{
+    display: none;
+    height: 80px;
+    margin: 12px 0;
+    border-radius: 4px;
+}
+
+.createPost__uploadImage > button{
+    outline-width: 0;
+    cursor: pointer;
+}
